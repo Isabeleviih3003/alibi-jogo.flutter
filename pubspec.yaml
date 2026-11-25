@@ -1,0 +1,16 @@
+name: alibi
+description: Alibi - Simulador de Perícia Criminal
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  flutter_svg: ^2.0.10+1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/cases.json
